@@ -91,6 +91,12 @@ If you change your login url, please add the new slug (url: http://domain.com/ne
 
 Notice: `wp-cron.php` is excluded by default.
 
+= How to report a security issue? =
+ 
+Plugin security is a core priority for us. If you identify a potential vulnerability, we ask that you disclose it responsibly.
+
+Please follow the reporting protocols outlined on our [Security Page](https://themeisle.com/security/).
+
 == Changelog ==
 
 ##### [Version 2.6.20](https://github.com/Codeinwp/wp-maintenance-mode/compare/v2.6.19...v2.6.20) (2025-09-04)
