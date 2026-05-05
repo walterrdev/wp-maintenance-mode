@@ -5,7 +5,7 @@ Plugin Name: LightStart - Maintenance Mode, Coming Soon and Landing Page Builder
 Plugin URI: https://themeisle.com/
 Author: Themeisle
 Author URI: https://themeisle.com/
-Tags: maintenance mode, admin, administration, unavailable, coming soon, multisite, landing page, under construction, contact form, subscribe, countdown
+Tags: maintenance mode, coming soon, landing page, splash page, under construction
 Requires at least: 4.7
 Tested up to: 6.9
 Stable tag: 2.6.21
