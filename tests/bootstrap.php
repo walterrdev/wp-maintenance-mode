@@ -8,7 +8,7 @@
 $_tests_dir = getenv( 'WP_TESTS_DIR' );
 
 if ( class_exists( '\Yoast\PHPUnitPolyfills\Autoload' ) === false ) {
-	require_once dirname( __DIR__ ) . '/../../vendor/yoast/phpunit-polyfills/phpunitpolyfills-autoload.php';
+	require_once dirname( __DIR__ ) . '/vendor/yoast/phpunit-polyfills/phpunitpolyfills-autoload.php';
 }
 
 if ( ! $_tests_dir ) {
