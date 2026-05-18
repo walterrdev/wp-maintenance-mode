@@ -7,12 +7,8 @@
 
 $_tests_dir = getenv( 'WP_TESTS_DIR' );
 
-error_log( var_export ( $_tests_dir, true) );
-
-$polyfills_path = dirname( dirname( __FILE__ ) ) . '/vendor/yoast/phpunit-polyfills';
-
-if ( file_exists( $polyfills_path . '/phpunitpolyfills-autoload.php' ) && ! defined( 'WP_TESTS_PHPUNIT_POLYFILLS_PATH' ) ) {
-	define( 'WP_TESTS_PHPUNIT_POLYFILLS_PATH', $polyfills_path );
+if ( class_exists( '\Yoast\PHPUnitPolyfills\Autoload' ) === false ) {
+	require_once dirname( __DIR__ ) . '/../../vendor/yoast/phpunit-polyfills/phpunitpolyfills-autoload.php';
 }
 
 if ( ! $_tests_dir ) {
